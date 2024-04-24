@@ -42,3 +42,27 @@ input[type="checkbox"]:focus {
 .banner-3{
   background-image: url(./assets/banner-3.png);
 }
+
+.botao-padrao {
+  background-color: var(--marrom-claro);
+  color: #000000;
+}
+
+.botao-padrao:hover {
+  background-color: var(--marrom-escuro);
+}
+
+.input-range::-webkit-slider-thumb, footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: #ffffff;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: #ffffff;
+    --bs-card-color: #ffffff;
+    --bs-offcanvas-color: #ffffff;
+    --bs-body-color: #ffffff;
+    --bs-body-color: #ffffff;
+  }
+}
